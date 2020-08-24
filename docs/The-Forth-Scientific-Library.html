@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!-- saved from url=(0039)https://www.taygeta.com/fsl/scilib.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="HTML Tidy for Linux/x86 (vers 1st August 2004), see www.w3.org">
+<title>The Forth Scientific Library</title>
+<meta name="Keywords" content="Forth, scientific, numerical, algorithm, library, taygeta">
+</head>
+<body>
+<center>
+<h1>The Forth Scientific Library</h1>
+</center>
+<center><img src="./library.gif"></center>
+<dl>
+<dt><a href="./TheForthScientificLibrary.tgz"><img src="./tar.gif" align="bottom"> <b>The complete library and auxiliary files:</b>
+<b>Gnu-zipped TAR file</b></a>.</dt>
+<dd>
+<hr></dd>
+</dl>
+<h2>In order of Algorithm number:</h2>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/expint.seq"><b>1. Real
+Exponential Integral</b></a> (ACM #20), V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/elip.seq"><b>2. Complete
+Elliptic Integral</b></a> (ACM #149), V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/horner.seq"><b>3.
+Polynomial evaluation by the Horner method</b></a>, V1.5.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/logistic.seq"><b>4.
+Logistic function and its first derivative</b></a>, V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/cube_rt.seq"><b>5. Cube
+root of real number by Newton's method</b></a>, V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/cubic.seq"><b>6. Solution
+of cubic equations with real coefficients</b></a>, V 10/6/94.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/regfalsi.seq"><b>7.
+Regula Falsi root finder</b></a>, V1.0.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hartley.seq"><b>8. Fast
+Hartley (Bracewell) Transform</b></a>, V1.3.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/aitken.seq"><b>9. Aitken
+interpolation</b></a> (ACM #70), V1.1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hermite.seq"><b>10.
+Hermite interpolation</b></a> (ACM #211), V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lagrange.seq"><b>11.
+Lagrange interpolation</b></a> (ACM #210), V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/divdiffs.seq"><b>12.
+Forward and Backward divided differences</b></a>, V1.3.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/newton.seq"><b>13. Newton
+interpolation</b></a> (ACM #168 &amp; #169), V1.4 (requires divided
+differences).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/factorl.seq"><b>14.
+Factorial function</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/shellsrt.seq"><b>15.
+Shell sort for floating point arrays</b></a>, V1.3.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/seriespw.seq"><b>16.
+Exponentiation of a series</b></a> (ACM #158), V1.3.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/polrat.seq"><b>17.
+Polynomial and Rational function interpolation and
+extrapolation</b></a>, V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gamma.seq"><b>18. The
+Gamma, LogGamma and reciprocal Gamma functions</b></a> (real args),
+V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/adaptint.seq"><b>19.
+Adaptive Integration using Trapezoid rule</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/pcylfun.seq"><b>20.
+Parabolic Cylinder functions and related Confluent Hypergeometric
+functions</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/polys.seq"><b>21. Special
+Polynomial (Chebyshev, Hermite, Laguerre, Generalized Laguerre,
+Legendre and Bessel) Evaluation</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dates.seq"><b>22.
+Conversion between calendar date and Julian day</b></a> (ACM #199),
+V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/r250.seq"><b>23. R250
+(also minimal standard) Pseudo-random number generator</b></a>,
+V1.5.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ran4.seq"><b>24. RAN4
+Pseudo-random number generator</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hilbert.seq"><b>25.
+Finite segment of Hilbert Matrices, their inverses and
+determinants</b></a>,V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/find.seq"><b>26. FIND nth
+element of an unsorted array (ACM #65)</b></a>, V1.0.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gauleg.seq"><b>27.
+Gauss-Legendre Integration</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/elip12.seq"><b>28.
+Complete Elliptic Integrals of the first and second kinds</b></a>
+(ACM #55 and #56), V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/runge4.seq"><b>29. 4th
+order and adaptive Runge-Kutta solvers for systems of ODEs</b></a>,
+V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/kande.seq"><b>30.
+Complete Elliptic Integrals of the first and second kinds</b></a>
+(ACM #165), V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/telscop1.seq"><b>31.
+Telescope 1 (reduction of degree of polynomial
+approximations)</b></a> (ACM #37)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/telscop2.seq"><b>32.
+Telescope 2 (reduction of degree of polynomial
+approximations)</b></a> (ACM #38)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lufact.seq"><b>33.
+LUFACT, LU Factorization of square matrices</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dets.seq"><b>34.
+Determinant of an LU factored matrix</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/backsub.seq"><b>35.
+Back-substitution solution for LU factored linear
+systems</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/invm.seq"><b>36. Inverse
+of an LU factored matrix</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dfourier.seq"><b>37.
+Direct Fourier Transforms (four methods)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ffourier.seq"><b>38.
+Radix-2 Fast Fourier Transform routines (five methods)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/svd.seq"><b>39. Singular
+Value Decomposition</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/amoeba.seq"><b>40. Amoeba
+-- Multidimensional Simplex minimization of a function</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/sunday.seq"><b>41. Sunday
+Quicksearch</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gauss.seq"><b>42. Gauss
+probability function (ACM #209)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/sph_bes.seq"><b>43.
+Regular spherical Bessel functions jn(x), n=0-9</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/crc.fth"><b>44. 16-bit
+Cyclic Redundancy Checksums</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/integral.fth"><b>45.
+Simpsons rule and Romberg algorithm Quadrature
+routines</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/vulgar.fth"><b>46. Basic
+arithmetic and conversions for rational numbers</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/big.fth"><b>47. BIG --
+Arithmetic on big signed magnitude numbers</b></a> (updated May
+1999)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gaussj.seq"><b>48. Gauss
+Jordan Elimination</b></a>,V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/levmarq.seq"><b>49.
+Levenberg-Marquardt nonlinear fit</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/walsh.fth"><b>50. Fast
+Walsh Transform</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/randdist.fth"><b>51.
+Random Number distributions</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/isaac.fth"><b>52. ISAAC
+Random Number generator</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/trap_int.fth"><b>53.
+Adaptive integration using trapezoidal rule with Richardson
+extrapolation</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/adpt_g3.fth"><b>54.
+Adaptive integration using 3 point Gauss-Legendre with Richardson
+extrapolation</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/shanks.fth"><b>55.
+shanks, Nonlinear transformation of series</b></a> (ACM Algorithm
+#215)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/quaternions.f"><b>56.
+Quaternions and rotation matrices</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/prng.f"><b>57.
+GGUBS floating point random number generator</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/mcint.f"><b>58.
+One-dimensional Monte-Carlo integration</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/permcomb.fth"><b>59.
+Permutations and combinations</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/complex.fs"><b>60.
+Complex numbers and functions</b></a>,V1.0.3<br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lagroots.fs"><b>61.
+Laguerre algorithm for polynomial roots</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/erf.fs"><b>62.
+Error functions</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/quadratic.fs"><b>63.
+Roots of a real quadratic</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ferf.fs"><b>64.
+Medium accuracy error function</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gambeta.fs"><b>65.
+Complete and incomplete gamma and beta functions</b></a><br></dt>
+</dl>
+<h2>By Algorithm category:</h2>
+<h3>Special Functions</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/logistic.seq"><b>4.
+Logistic function and its first derivative</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/factorl.seq"><b>14.
+Factorial function</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gamma.seq"><b>18. The
+Gamma, LogGamma and reciprocal Gamma functions</b></a> (real
+args).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/pcylfun.seq"><b>20.
+Parabolic Cylinder functions and related Confluent Hypergeometric
+functions</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gauss.seq"><b>42. Gauss
+probability function (ACM #209)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/sph_bes.seq"><b>43.
+Regular spherical Bessel functions jn(x), n=0-9</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/erf.fs"><b>62.
+Error functions</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ferf.fs"><b>64.
+Medium accuracy error function</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gambeta.fs"><b>65.
+Complete and incomplete gamma and beta functions</b></a><br></dt>
+</dl>
+<h3>Special Integrals</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/expint.seq"><b>1. Real
+Exponential Integral</b></a> (ACM #20).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/elip.seq"><b>2. Complete
+Elliptic Integral</b></a> (ACM #149).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/elip12.seq"><b>28.
+Complete Elliptic Integrals of the first and second kinds</b></a>
+(ACM #55 and #56), V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/kande.seq"><b>30.
+Complete Elliptic Integrals of the first and second kinds</b></a>
+(ACM #165), V1.2.</dt>
+</dl>
+<h3>Interpolators</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/aitken.seq"><b>9. Aitken
+interpolation</b></a> (ACM #70).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hermite.seq"><b>10.
+Hermite interpolation</b></a> (ACM #211).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lagrange.seq"><b>11.
+Lagrange interpolation</b></a> (ACM #210).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/newton.seq"><b>13. Newton
+interpolation</b></a> (ACM #168 &amp; #169) (requires divided
+differences).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/polrat.seq"><b>17.
+Polynomial and Rational function interpolation and
+extrapolation</b></a>.</dt>
+</dl>
+<h3>Integrators</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/adaptint.seq"><b>19.
+Adaptive Integration using Trapezoid rule</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gauleg.seq"><b>27.
+Gauss-Legendre Integration</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/integral.fth"><b>45.
+Simpsons rule and Romberg algorithm Quadrature
+routines</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/trap_int.fth"><b>53.
+Adaptive integration using trapezoidal rule with Richardson
+extrapolation</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/adpt_g3.fth"><b>54.
+Adaptive integration using 3 point Gauss-Legendre with Richardson
+extrapolation</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/mcint.f"><b>58.
+One-dimensional Monte-Carlo integration</b></a><br></dt>
+</dl>
+<h3>Polynomial/Power series algorithms</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/horner.seq"><b>3.
+Polynomial evaluation by the Horner method</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/seriespw.seq"><b>16.
+Exponentiation of a series</b></a> (ACM #158).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/polrat.seq"><b>17.
+Polynomial and Rational function interpolation and
+extrapolation</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/polys.seq"><b>21. Special
+Polynomial (Chebyshev, Hermite, Laguerre, Generalized Laguerre,
+Legendre and Bessel) Evaluation</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/telscop1.seq"><b>31.
+Telescope 1 (reduction of degree of polynomial
+approximations)</b></a> (ACM #37)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/telscop2.seq"><b>32.
+Telescope 2 (reduction of degree of polynomial
+approximations)</b></a> (ACM #38)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/shanks.fth"><b>55.
+shanks, Nonlinear transformation of series</b></a> (ACM Algorithm
+#215)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lagroots.fs"><b>61.
+Laguerre algorithm for polynomial roots</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/quadratic.fs"><b>63.
+Roots of a real quadratic</b></a><br></dt>
+</dl>
+<h3>Transforms</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hartley.seq"><b>8. Fast
+Hartley (Bracewell) Transform</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dfourier.seq"><b>37.
+Direct Fourier Transforms (four methods)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ffourier.seq"><b>38.
+Radix-2 Fast Fourier Transform routines (five methods)</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/walsh.fth"><b>50. Fast
+Walsh Transform</b></a></dt>
+</dl>
+<h3>Matrix algorithms</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/hilbert.seq"><b>25.
+Finite segment of Hilbert Matrices, their inverses and
+determinants</b></a>,V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/lufact.seq"><b>33.
+LUFACT, LU Factorization of square matrices</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dets.seq"><b>34.
+Determinant of an LU factored matrix</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/backsub.seq"><b>35.
+Back-substitution solution for LU factored linear
+systems</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/invm.seq"><b>36. Inverse
+of an LU factored matrix</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/svd.seq"><b>39. Singular
+Value Decomposition</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/gaussj.seq"><b>48. Gauss
+Jordan Elimination</b></a>,V1.2. </dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/quaternions.f"><b>56.
+Quaternions and rotation matrices</b></a></dt>
+</dl>
+<h3>Random numbers and related</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/r250.seq"><b>23. R250
+(also minimal standard) Pseudo-random number
+generator</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ran4.seq"><b>24. RAN4
+Pseudo-random number generator</b></a>, V1.1.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/randdist.fth"><b>51.
+Random Number distributions</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/isaac.fth"><b>52. ISAAC
+Random Number generator</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/prng.f"><b>57.
+GGUBS floating point random number generator</b></a><br></dt>
+</dl>
+<h3>Miscellaneous algorithms</h3>
+<dl>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/cube_rt.seq"><b>5. Cube
+root of real number by Newton's method</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/cubic.seq"><b>6. Solution
+of cubic equations with real coefficients</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/regfalsi.seq"><b>7.
+Regula Falsi root finder</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/divdiffs.seq"><b>12.
+Forward and Backward divided differences</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/shellsrt.seq"><b>15.
+Shell sort for floating point arrays</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dates.seq"><b>22.
+Conversion between calendar date and Julian day</b></a> (ACM
+#199).</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/find.seq"><b>26. FIND nth
+element of an unsorted array (ACM #65)</b></a>, V1.0.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/runge4.seq"><b>29. 4th
+order and adaptive Runge-Kutta solvers for systems of ODEs</b></a>,
+V1.2.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/amoeba.seq"><b>40. Amoeba
+-- Multidimensional Simplex minimization of a function</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/sunday.seq"><b>41. Sunday
+Quicksearch</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/crc.fth"><b>44. 16-bit
+Cyclic Redundancy Checksums</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/vulgar.fth"><b>46. Basic
+arithmetic and conversions for rational numbers</b></a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/big.fth"><b>47. BIG --
+Arithmetic on big signed magnitude numbers</b></a> (updated May
+1999)</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/levmarq.seq"><b>49.
+Levenberg-Marquardt nonlinear fit</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/permcomb.fth"><b>59.
+Permutations and combinations</b></a><br></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/complex.fs"><b>60.
+Complex numbers and functions</b></a>, V1.0.3<br></dt>
+</dl>
+<pre>  
+</pre>
+<h2>Auxiliary code</h2>
+<pre> 
+</pre>
+<p>Please note that the auxiliary files do not go through the
+reviewing process used for the Library Algorithms. They have been
+contributed by various authors in the hope they will be of use to
+some Library users. In particular, some may have dependencies on
+particular systems or implementations.</p>
+<dl>
+<dt><img src="./pink.gif"> <b>FSL auxiliary code</b> by Skip
+Carter</dt>
+<dd>for <a href="https://www.taygeta.com/fsl/library/fsl_util.seq">F-PC</a>, <a href="https://www.taygeta.com/fsl/library/fsl-util.fo">ThisForth</a>, or <a href="https://www.taygeta.com/fsl/library/fsl-utilg.fth">GFORTH</a></dd>
+<dt><img src="./pink.gif"> <b>FSL auxiliary code</b> from Krishna Myneni suitable for either</dt>
+<dd><a href="https://www.taygeta.com/fsl/library/fsl-util.fs">PFE or Gforth</a></dd>
+<dt><img src="./pink.gif"> <b>FSL auxiliary code</b> by Pierre
+Abbat, revised by Marcel Hendrix,</dt>
+<dd>for <a href="https://www.taygeta.com/fsl/library/fsl_util.f">Win32For</a></dd>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/jvn-util.fo"><b>FSL
+auxiliary code</b></a> for Julian Noble's contributions.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/ttester.fs"><b>ttester
+</b></a> for the testing of Forth words, based on the Hayes suite</dt>
+<dd> and subsequently extended by several authors, and </dd>
+<dd><a href="https://www.taygeta.com/fsl/library/ttester-xf.fs"><b>ttester-xf</b></a>, a revision by David N. Williams</dd>
+<dd> with new relative error comparisons suggested by Krishna Myneni.</dd>
+<dd> Links to related utilities are included.</dd>
+<dt><img src="./pink.gif"> Complex number <a href="https://www.taygeta.com/fsl/library/complex-test.fs">
+testing code</a> for the words in Algorithm 60, V1.0.3.
+</dt><dt><img src="./pink.gif"> A set of syntactically equivalent <b>complex number
+implementations</b></dt>
+<dd>     by Skip Carter, using</dd>
+<dd><a href="https://www.taygeta.com/fsl/library/complex.seq">the float stack</a></dd>
+<dd><a href="https://www.taygeta.com/fsl/library/complex2.seq">a separate complex number
+stack</a>.</dd>
+<dd><a href="https://www.taygeta.com/fsl/library/complex3.seq">data structures</a>.</dd>
+<dd><a href="https://www.taygeta.com/fsl/library/complex4.seq">data structures and a complex
+number stack</a>.</dd>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/cmath.fth"> Some <b>complex
+number operations</b> by Skip Carter</a></dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/dynmem.seq"><b>dynamic
+memory package for arrays and structures</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/umd.fo"><b>extra double
+precision words</b></a> (used by <b>ThisForth</b>).</dt>
+<dt><img src="./pink.gif"> Supplemental <a href="https://www.taygeta.com/fsl/library/hartley.tst"><b>Hartley Transform Utilities and
+Tests</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/fileio.fth"><b>ASCII file
+I/O utility words</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/structs.seq"><b>Structures package</b></a>.</dt>
+<dt><img src="./pink.gif"> <a href="https://www.taygeta.com/fsl/library/w32fquaternions.f"><b>supplemental Quaternion code for
+Win32Forth</b></a><br>
+<br>
+<br></dt>
+</dl>
+<center><img src="./maroonbar.gif"></center>
+<p><a href="https://www.taygeta.com/fsl/sciforth.html"><img src="./back.gif" alt="&lt;--"> Back to Forth Scientific Library page</a>.</p>
+
+
+</body></html>
